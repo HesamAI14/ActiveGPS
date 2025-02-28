@@ -1,0 +1,7 @@
+messages:
+  gps_received: "&aYou have received a GPS!"
+  gps_updated: "&aGPS updated to {location}!"
+  gps_cancelled: "&cGPS has been cancelled!"
+  no_permission: "&cYou don't have permission to do that!"
+  config_reloaded: "&aConfiguration reloaded successfully!"
+  invalid_command: "&cInvalid command. Use /gps or /gps reload."

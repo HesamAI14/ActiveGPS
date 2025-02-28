@@ -1,0 +1,16 @@
+name: ActiveGPS
+main: me.active.activegps.Main
+version: 1.0
+api-version: 1.19
+commands:
+  gps:
+    description: "Main GPS command"
+    usage: "/gps"
+    permission: "activegps.use"
+permissions:
+  activegps.use:
+    description: "Allows the player to use GPS commands"
+    default: op
+  activegps.admin:
+    description: "Allows reloading the config"
+    default: op

@@ -1,0 +1,33 @@
+general:
+  gps-name: "&cGPS"
+  display-menu: "&c&lGPS"
+  max-page: 5
+  next-page-item: "LIME_STAINED_GLASS_PANE"
+  next-page-slot: 51
+  previous-page-item: "RED_STAINED_GLASS_PANE"
+  previous-page-slot: 47
+  cancel-name: "&cCancel"
+  cancel-lore: "&cThis is a button for cancel!"
+  cancel-item: "BARRIER"
+  cancel-slot: 49
+
+menu:
+  IRON:
+    display-name: "&f&lIron"
+    lore:
+      - "&cThis is a Iron location"
+    item: "IRON_INGOT"
+    location:
+      x: 100
+      y: 65
+      z: 200
+
+  GOLD:
+    display-name: "&6&lGold"
+    lore:
+      - "&bThis is a Gold location"
+    item: "GOLD_INGOT"
+    location:
+      x: 300
+      y: 70
+      z: -150
