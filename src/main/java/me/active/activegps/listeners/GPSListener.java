@@ -50,7 +50,7 @@ public class GPSListener implements Listener {
     private void openGPSMenu(Player player, int page) {
         FileConfiguration config = plugin.getConfig();
         String menuTitle = ChatColor.translateAlternateColorCodes('&', config.getString("general.display-menu", "GPS Menu"));
-        Inventory menu = Bukkit.createInventory(null, 54, menuTitle); // تعداد اسلات‌ها را 54 در نظر می‌گیریم (9 ردیف 6 تایی)
+        Inventory menu = Bukkit.createInventory(null, 54, menuTitle);
 
         int itemsPerPage = 45;
         List<String> keys = config.getConfigurationSection("menu").getKeys(false).stream().collect(Collectors.toList());
